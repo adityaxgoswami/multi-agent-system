@@ -40,3 +40,4 @@ huggingface-hub>=0.34.0
 transformers>=4.53.0
 
 streamlit
+ddgs
