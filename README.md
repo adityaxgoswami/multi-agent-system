@@ -1,71 +1,173 @@
 <div align="center">
 
 # 🌌 ResearchGuru
-### AI Powered Multi-Agent Research Assistant
 
-<img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/>
-<img src="https://img.shields.io/badge/LangChain-Agent%20Framework-green?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit"/>
-<img src="https://img.shields.io/badge/HuggingFace-LLM-yellow?style=for-the-badge&logo=huggingface"/>
+### Autonomous Multi-Agent AI Research System
 
-A professional **Multi-Agent AI Research System** that autonomously searches the web, extracts information, writes structured research reports, and evaluates its own output using specialized AI agents.
+<p>
+An AI-powered research assistant that searches the web, extracts reliable information, generates structured reports, and critiques its own work using a collaborative multi-agent architecture.
+</p>
 
----
+<p>
+
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-Agent%20Framework-1C3C3C?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-LLM-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+</p>
+
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![PRs](https://img.shields.io/badge/PRs-Welcome-blue)
 
 </div>
 
-## 📖 Overview
+<p align="center">
+  <b>Search • Read • Write • Critique</b><br>
+  Autonomous AI agents collaborate to produce structured research reports from live web data.
+</p>
 
-ResearchGuru is an AI-powered research assistant built using **LangChain's Agent Framework**.
+<p align="center">
 
-Instead of relying on a single LLM, ResearchGuru divides the research workflow into multiple specialized AI agents, each responsible for one task.
+<a href="https://multi-agent-system-nvsnsjghvddugmcr5pj6wh.streamlit.app/">
+<img src="https://img.shields.io/badge/🚀 Live Demo-blue?style=for-the-badge">
+</a>
 
-The result is a structured and reliable research pipeline capable of generating detailed reports with self-evaluation.
+<a href="https://drive.google.com/file/d/1qnFun0cw6HRI-p06StwpBoU05nh-7iic/view?usp=sharing">
+<img src="https://img.shields.io/badge/📹 Demo Video-red?style=for-the-badge">
+</a>
+
+<a href="https://github.com/adityaxgoswami/ResearchGuru">
+<img src="https://img.shields.io/badge/💻 Source Code-black?style=for-the-badge">
+</a>
+
+</p>
+
+## 📑 Table of Contents
+
+- [📖 Project Overview](#-project-overview)
+- [🎯 Motivation](#-motivation)
+- [🎯 Why Multi-Agent?](#-why-multi-agent)
+- [🚀 Key Highlights](#-key-highlights)
+- [🏗️ System Architecture](#-system-architecture)
+- [🤝 Agent Collaboration](#-agent-collaboration)
+- [🤖 Agent Workflow](#-agent-workflow)
+- [🖥️ User Interface](#-user-interface)
+- [📂 Project Structure](#-project-structure)
+- [⚙️ Pipeline Components](#-pipeline-components)
+- [🚀 Installation](#-installation)
+- [🔑 Environment Variables](#-environment-variables)
+- [▶️ Run the Application](#-run-the-application)
+- [📸 Screenshots](#-screenshots)
+- [📄 Sample Report](#-sample-report)
+- [🔥 Future Improvements](#-future-improvements)
+- [🚧 Challenges & Learnings](#-challenges--learnings)
+- [🧠 Concepts Demonstrated](#-concepts-demonstrated)
+- [📈 Why this Project?](#-why-this-project)
+- [🤝 Contributing](#-contributing)
+- [⭐ Support](#-support)
+- [👨‍💻 About the Author](#-about-the-author)
+---
+# 📖 Project Overview
+
+ResearchGuru is an **Autonomous Multi-Agent AI Research System** that automates the entire research workflow using specialized AI agents.
+
+Instead of relying on a single Large Language Model to perform every task, ResearchGuru divides the research process into multiple intelligent agents, each responsible for a specific objective. This modular design improves scalability, maintainability, and produces more structured and reliable research outputs.
+
+Starting from a simple research query, the system performs:
+
+- 🔍 Web search to gather recent and relevant information
+- 📄 Deep content extraction from trusted sources
+- ✍️ AI-generated structured research reports
+- 🧐 Automated quality evaluation and feedback
+
+The entire pipeline is orchestrated using **LangChain Agents**, powered by **Hugging Face LLMs**, and presented through an interactive **Streamlit** interface.
 
 ---
 
-# ✨ Features
+## 🎯 Motivation
 
-✅ Multi-Agent Architecture
+Modern LLMs are powerful, but asking a single model to search, read, summarize, organize, and evaluate information often produces inconsistent or hallucinated responses.
 
-✅ Autonomous Web Search
+ResearchGuru addresses this limitation by adopting a **multi-agent architecture**, where each AI agent specializes in a single responsibility.
 
-✅ Website Scraping
+This approach mirrors how human research teams collaborate:
 
-✅ AI Generated Research Reports
+- One researcher gathers information.
+- Another performs in-depth reading.
+- A technical writer prepares the report.
+- A reviewer evaluates its quality.
 
-✅ Self Critique & Quality Evaluation
-
-✅ Modern Streamlit Dashboard
-
-✅ Markdown Report Export
-
-✅ Modular & Scalable Design
+By separating these responsibilities, the system produces more organized, transparent, and extensible research workflows.
 
 ---
+# 🎯 Why Multi-Agent?
 
-# 🏗️ Architecture
+Traditional LLM applications rely on a single model to perform every task, making workflows harder to scale, debug, and maintain.
 
+ResearchGuru adopts a **multi-agent architecture**, where each AI agent specializes in a specific responsibility. This modular approach improves maintainability, extensibility, and produces more structured research outputs.
+
+| Traditional LLM | ResearchGuru |
+|-----------------|--------------|
+| One model handles every task | Specialized AI agents collaborate |
+| Difficult to debug | Independent agent outputs |
+| Hard to extend | Modular architecture |
+| Mixed responsibilities | Clear separation of concerns |
+| Less scalable | Enterprise-ready design |
+---
+## 🚀 Key Highlights
+
+- 🤖 Multi-Agent AI Architecture
+- 🔍 Automated Web Research
+- 🌐 Intelligent Web Scraping
+- ✍️ Structured Report Generation
+- 🧐 AI-Based Report Evaluation
+- 📥 Markdown Report Export
+- 🎨 Modern Streamlit Dashboard
+- ⚡ Modular & Easily Extensible Design
+---
+
+# 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+
+A[User Query]
+A --> B[🔍 Search Agent]
+
+B --> C[📄 Reader Agent]
+
+C --> D[✍️ Writer Agent]
+
+D --> E[🧐 Critic Agent]
+
+E --> F[📑 Final Report]
 ```
-                User Query
-                     │
-                     ▼
-            🔍 Search Agent
-                     │
-                     ▼
-            📄 Reader Agent
-                     │
-                     ▼
-            ✍️ Writer Agent
-                     │
-                     ▼
-            🧐 Critic Agent
-                     │
-                     ▼
-            Final Research Report
-```
 
 ---
+
+# 🤝 Agent Collaboration
+
+```mermaid
+sequenceDiagram
+
+participant User
+participant Search
+participant Reader
+participant Writer
+participant Critic
+
+User->>Search: Research Topic
+
+Search->>Reader: Search Results
+
+Reader->>Writer: Scraped Content
+
+Writer->>Critic: Research Report
+
+Critic->>User: Final Report + Evaluation
+```
 
 # 🤖 Agent Workflow
 
@@ -152,19 +254,19 @@ ResearchGuru/
 
 ---
 
-# ⚙️ Tech Stack
+# ⚙️ Pipeline Components
 
-| Technology | Purpose |
-|------------|----------|
-| Python | Backend |
-| LangChain | Agent Framework |
-| HuggingFace | Large Language Model |
-| Streamlit | Frontend |
-| BeautifulSoup | Web Scraping |
-| DuckDuckGo Search | Search Engine |
-| dotenv | Environment Variables |
-
----
+| Component | Technology |
+|-----------|------------|
+| **Programming Language** | Python 3.11 |
+| **LLM** | Qwen2.5-7B-Instruct |
+| **Agent Framework** | LangChain |
+| **Search Engine** | DuckDuckGo Search |
+| **Web Scraping** | BeautifulSoup |
+| **Frontend** | Streamlit |
+| **Prompt Templates** | ChatPromptTemplate |
+| **Output Parsing** | StrOutputParser |
+| **Environment Management** | python-dotenv |
 
 # 🚀 Installation
 
@@ -212,50 +314,45 @@ python pipeline.py
 
 # 📸 Screenshots
 
-Add screenshots here.
+| Home | Agent Workflow |
+|------|----------------|
+| ![](assets/home.png) | ![](assets/pipeline.png) |
 
-```
-assets/home.png
-
-assets/pipeline.png
-
-assets/report.png
-```
+| Generated Report | Critic Feedback |
+|------------------|-----------------|
+| ![](assets/report.png) | ![](assets/critic.png) |
 
 ---
 
-# 📥 Example Output
+# 📄 Sample Report
+
+**Topic**
 
 ```
-Topic:
 Future of Quantum Computing
-
-↓
-
-Search Agent
-↓
-
-Reader Agent
-
-↓
-
-Writer Agent
-
-↓
-
-Generated Report
-
-↓
-
-Critic Feedback
-
-↓
-
-Score: 9.2 / 10
 ```
 
----
+**Generated Sections**
 
+- Introduction
+- Key Findings
+- Conclusion
+- Sources
+
+**Critic Evaluation**
+
+```
+Score: 9.4/10
+
+Strengths:
+- Well-structured report
+- Reliable sources
+- Clear explanations
+
+Areas to Improve:
+- Include more quantitative comparisons.
+```
+---
 # 🔥 Future Improvements
 
 - PDF Report Export
@@ -279,9 +376,27 @@ Score: 9.2 / 10
 - Multi-language Reports
 
 - Research History Database
-
 ---
+# 🚧 Challenges & Learnings
 
+## Challenges
+
+- Designing a modular multi-agent workflow.
+- Coordinating information flow between specialized agents.
+- Engineering prompts for different agent roles.
+- Extracting reliable content from webpages.
+- Structuring research reports consistently.
+
+## Key Learnings
+
+- Multi-Agent AI Systems
+- LangChain Agent Framework
+- Prompt Engineering
+- Tool Calling
+- Web Scraping
+- Streamlit Development
+- Modular AI Architecture
+---
 # 🧠 Concepts Demonstrated
 
 - Multi-Agent Systems
@@ -341,9 +456,42 @@ If you found this project useful,
 📢 Share it with others
 
 ---
+---
+
+# 👨‍💻 About the Author
 
 <div align="center">
 
-Made with ❤️ using Python, LangChain and Streamlit
+<img src="https://avatars.githubusercontent.com/adityaxgoswami" width="120" style="border-radius:50%;" alt="Aditya Goswami"/>
+
+## Aditya Goswami
+
+**Computer Science Undergraduate | Machine Learning Engineer | Generative AI Enthusiast**
+
+Passionate about building intelligent systems using Machine Learning, Large Language Models, RAG, and Multi-Agent AI architectures. I enjoy solving real-world problems through scalable AI applications and continuously exploring emerging technologies in the AI ecosystem.
+
+<p align="center">
+
+<a href="https://github.com/adityaxgoswami">
+<img src="https://img.shields.io/badge/GitHub-adityaxgoswami-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<a href="https://www.linkedin.com/in/adityaxgoswami/">
+<img src="https://img.shields.io/badge/LinkedIn-Aditya%20Goswami-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:adityagoswami2424@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+⭐ **If you found this project useful, consider giving it a star!**
+
+Built with ❤️ by **Aditya Goswami**
 
 </div>
