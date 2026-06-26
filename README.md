@@ -38,7 +38,7 @@ An AI-powered research assistant that searches the web, extracts reliable inform
 <img src="https://img.shields.io/badge/📹 Demo Video-red?style=for-the-badge">
 </a>
 
-<a href="https://github.com/adityaxgoswami/ResearchGuru">
+<a href="https://github.com/adityaxgoswami/multi-agent-system">
 <img src="https://img.shields.io/badge/💻 Source Code-black?style=for-the-badge">
 </a>
 
