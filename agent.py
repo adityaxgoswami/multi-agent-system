@@ -1,7 +1,7 @@
 from langchain.agents import create_agent
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.chat_models import ChatHuggingFace
-from langchain_core.llms import HuggingFaceEndpoint
+from langchain_huggingface import ChatHuggingFace
+from langchain_huggingface import HuggingFaceEndpoint
 from langchain_core.output_parsers import StrOutputParser
 from tools import search, scrape_url
 import os

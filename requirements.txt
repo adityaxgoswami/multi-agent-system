@@ -45,3 +45,5 @@ html5lib>=1.1
 duckduckgo_search
 langchain_community
 langchain_core
+langchain 
+streamlit
