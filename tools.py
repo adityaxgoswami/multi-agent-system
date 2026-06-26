@@ -34,6 +34,6 @@ def scrape_url(url: str) -> str:
     except Exception as e:
         return f"Could not scrape URL: {str(e)}"
 
-print(search.invoke({"query": "What is a rag?"}))
+# print(search.invoke({"query": "What is a rag?"}))
 
-print(scrape_url.invoke({"url": "https://www.ibm.com/think/topics/retrieval-augmented-generation"}))
+# print(scrape_url.invoke({"url": "https://www.ibm.com/think/topics/retrieval-augmented-generation"}))
