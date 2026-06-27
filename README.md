@@ -30,7 +30,7 @@ An AI-powered research assistant that searches the web, extracts reliable inform
 
 <p align="center">
 
-<a href="https://multi-agent-system-nvsnsjghvddugmcr5pj6wh.streamlit.app/">
+<a href="https://multi-agent-system-ey8zonmppqsnv7hyonczdq.streamlit.app/">
 <img src="https://img.shields.io/badge/🚀 Live Demo-blue?style=for-the-badge">
 </a>
 
