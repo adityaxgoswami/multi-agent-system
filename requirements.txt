@@ -42,3 +42,4 @@ transformers>=4.53.0
 streamlit
 ddgs
 torch
+torchvision
