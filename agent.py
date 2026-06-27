@@ -5,10 +5,14 @@ from langchain_huggingface import HuggingFaceEndpoint
 from langchain_core.output_parsers import StrOutputParser
 from tools import search, scrape_url
 import os
+import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
 
-HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
+HUGGINGFACEHUB_API_TOKEN = (
+    st.secrets.get("HUGGINGFACEHUB_API_TOKEN")
+    or os.getenv("HUGGINGFACEHUB_API_TOKEN")
+)
 
 llm = HuggingFaceEndpoint(
     repo_id="Qwen/Qwen2.5-7B-Instruct",
