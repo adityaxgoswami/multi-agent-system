@@ -9,9 +9,9 @@ import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
 
-HUGGINGFACEHUB_API_TOKEN = (
-    st.secrets.get("HUGGINGFACEHUB_API_TOKEN")
-    or os.getenv("HUGGINGFACEHUB_API_TOKEN")
+HUGGINGFACE_API_KEY= (
+    st.secrets.get("HUGGINGFACE_API_KEY")
+    or os.getenv("HUGGINGFACE_API_KEY")
 )
 
 llm = HuggingFaceEndpoint(
