@@ -456,7 +456,6 @@ If you found this project useful,
 📢 Share it with others
 
 ---
----
 
 # 👨‍💻 About the Author
 
